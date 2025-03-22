@@ -50,7 +50,7 @@ if (session_status() === PHP_SESSION_NONE) {
             <div class="logo">
                 <!-- Adicionando um GIF relacionado à saúde -->
                 <img src="imagem/saude.png" alt="Saúde GIF">
-                <h1>Sistema de Atendimento Integrado</h1>
+                <h1>Sistema de Atendimento Integrado </h1>
             </div>
             <div class="welcome-message">
                 <?php if (isset($_SESSION['usuario'])): ?>
