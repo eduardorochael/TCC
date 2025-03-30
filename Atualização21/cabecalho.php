@@ -58,6 +58,9 @@ if (session_status() === PHP_SESSION_NONE) {
                 <?php else: ?>
                     Bem-vindo!
                 <?php endif; ?>
+                <div style="margin-top: 20px;">
+    <a href="adicionar_medicamento.php">Gerenciar Medicamentos</a>
+</div>
             </div>
             <div class="date-time">
                 <!-- Exibindo a data e hora atual -->
