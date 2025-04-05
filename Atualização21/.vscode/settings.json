@@ -1,1 +1,19 @@
-{}
+{
+    "git.useCommitInputAsStashMessage": true,
+    "git.scanRepositories": [
+        "https://github.com/nathyalves/TCC",
+        "",
+        "C:\\xampp3\\htdocs\\dashboard\\TCC\\Atualização21"
+    ],
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.followTagsWhenSync": true,
+    "git.openDiffOnClick": false,
+    "git.repositoryScanIgnoredFolders": [
+        "node_modules",
+        "C:\\xampp3\\htdocs\\dashboard\\TCC\\Atualização21"
+    ],
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.autoStash": true,
+    "git.branchProtectionPrompt": "alwaysCommit"
+}
